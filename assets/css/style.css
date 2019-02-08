@@ -1,0 +1,81 @@
+/* Heading */
+#headingDiv {
+    background-color: orange;
+    color: white;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Directions */
+#directionsDiv {
+    background-color: green;
+    color:  white;
+    width: 50%;
+}
+
+/* Random number and Tally */
+#rnt-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#randomResult {
+    background-color:yellow;
+    height: 100px;
+    width: 25%;
+    font-size: 40pt;
+}
+
+#tally-div {
+    background-color: lime;
+    height: 100px;
+    width: 25%;
+    font-size: 40pt;
+}
+
+/* Crystals */
+.crystals {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+.crystal {
+    border: 1px solid red;
+    height: 110px;
+    width: 115px;
+    margin-top: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+.crystal:hover {
+    cursor: pointer;
+   
+}
+
+/* Your total score */
+#yts {
+    background-color: firebrick;
+    color: white;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#scoreBox {
+    background-color: firebrick;
+    color: white;
+    font-size: 40pt;
+    width: 25%;
+    height: 100px;
+}
