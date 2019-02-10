@@ -28,11 +28,8 @@ let startGame = function() {
                 "background-image":"url('" + (images[i]) + "')",
                 "background-size":"cover"
             });
-
-
         $(".crystals").append(crystal);
     }
-
     $("#scoreBox").html(counter);
 }
 
